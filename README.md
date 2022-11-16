@@ -1,5 +1,7 @@
 # Socially Networked
 
+![Insomnia of GET All thoughts](./assets/images/insomnia-thoughts.jpg)
+
 ## License
 ### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ### [MIT](https://opensource.org/licenses/MIT)
@@ -14,11 +16,15 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 
 * [Installation](#installation)
 
-* [Usage](#usage)  
+* [Technologies](#technologies)
 
 * [Tests](#tests)
 
+* [Usage](#usage)  
+
 * [Contributors](#contributors)
+
+* [Future Improvements](#future-improvements)
 
 * [Questions?](#questions)
 
@@ -36,9 +42,19 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 
 - Enjoy.
 
+## Technologies
+
+* npm packages used: 
+
+- [express](https://www.npmjs.com/package/express)
+
+- [mongoose](https://www.npmjs.com/package/mongoose)
+
+- [nodemon](https://www.npmjs.com/package/nodemon)
+
 ## Tests
 
-- Video Demonstration for Socially Networked
+- [Video Demonstration for Socially Networked](https://drive.google.com/file/d/1HL36HXjLicmvGqV4fKc-mVsU6iTGMhCx/view)
 
 ## Usage
 
@@ -47,6 +63,14 @@ Users can GET, POST, PUT and DELETE unique User's and their Thought's, similar t
 ## Contributors
 
 * n/a
+
+### Future Improvements
+
+* Create a front end for the website to allow for user interaction outside of developers
+
+* Allow for posting of images along with thoughts
+
+* Allow for link attachments to allow users to share web information cleanly
 
 ## Questions?
 
