@@ -1,4 +1,5 @@
 const router = require('express').Router();
+// Import all backend api function for Thoughts
 const {
     getAllThoughts,
     getThoughtById,
@@ -9,6 +10,7 @@ const {
     removeReaction
 } = require('../../controllers/thought-controller');
 
+// Assign routes based on controller functions
 router.route('/').get(getAllThoughts).post(createThought);
 
 router.route('/:id').get(getThoughtById).put(updateThought).delete(deleteThought);

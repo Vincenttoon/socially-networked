@@ -1,6 +1,7 @@
 const { Schema, model } = require("mongoose");
 const dateFormat = require("../utils/dateFormat");
 
+// Schema for user, including thought and friends relationship
 const UserSchema = new Schema(
   {
     username: {

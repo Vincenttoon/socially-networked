@@ -1,4 +1,5 @@
 const router = require('express').Router();
+// Import all backend api function for Users
 const {
     getAllUsers,
     getUserById,
@@ -9,6 +10,7 @@ const {
     removeFriend
 } = require('../../controllers/user-controller');
 
+// Assign routes based on controller functions
 router.route('/').get(getAllUsers).post(createUser);
 
 router.route('/:id').get(getUserById).put(updateUser).delete(deleteUser);
